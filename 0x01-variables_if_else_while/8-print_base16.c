@@ -8,15 +8,15 @@
 
 int main(void)
 {
-	char i;
+	char j;
 	int i;
 	
 	for (i  = 0 ; i < 10; i++)
-		putcher(i + '0');
+		putchar(i + '0');
 	for (j  = 'a' ; j <= 'f'; j++)
-		putcher(j);
+		putchar(j);
 
-	putcher('\n');
+	putchar('\n');
 	return (0);
 }
 
